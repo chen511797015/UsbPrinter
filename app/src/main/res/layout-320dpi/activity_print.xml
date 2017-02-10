@@ -20,30 +20,31 @@
                 android:id="@+id/m_btn_print_self_information"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="打印自检信息"
-                android:textSize="20sp" />
+                android:text="打印自检信息1"
+                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/m_btn_open_cash_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="弹钱箱"
-                android:textSize="20sp" />
+                android:text="弹钱箱1"
+                android:textSize="30sp" />
 
 
             <Button
                 android:id="@+id/m_btn_print_concentration_level"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="打印浓度等级"
-                android:textSize="20sp" />
+                android:text="打印浓度等级1"
+                android:textSize="30sp" />
+
 
             <Button
                 android:id="@+id/m_btn_print_factory_information"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="打印出厂日期,序列号,ID"
-                android:textSize="20sp" />
+                android:text="打印出厂日期,序列号,ID1"
+                android:textSize="30sp" />
 
 
         </LinearLayout>
