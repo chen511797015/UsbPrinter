@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         mEcrPosPrintManage.prnStr("123456789");
+                        //mEcrPosPrintManage.prnBytes(new byte[]{0x1b, 0x23, 0x23, 0x46, 0x4c, 0x4c, 0x46, 0x01});
+                        mEcrPosPrintManage.prnBytes(new byte[]{10});
                         mEcrPosPrintManage.prnStr("987654321");
                         //mEcrPosPrintManage.prnCutAll();
                         mEcrPosPrintManage.prnBytes(SendCut);
@@ -91,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
                         for (int i = 0; i < 20; i++) {
                             mEcrPosPrintManage.prnBytes(ImgUtil.decodeBitmap(600, 200));
                         }
-
                         //mEcrPosPrintManage.prnBytes(SendCut);
                     }
                 }.run();
