@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_print"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/m_btn_print_self_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打印自检信息"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/m_btn_open_cash_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="弹钱箱"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/m_btn_print_concentration_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打印浓度等级"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/m_btn_print_factory_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打印出厂日期,序列号,ID"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
