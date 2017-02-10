@@ -11,6 +11,10 @@ import android.widget.RelativeLayout;
 
 import com.pax.api.CustomizedPrintCmd;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -57,6 +61,21 @@ public class PrintActivity extends AppCompatActivity {
         setContentView(R.layout.activity_print);
         ButterKnife.bind(this);
         PrintUtil.getInstance(this);
+
+        //TODO 读取升级文件内容
+        try {
+            InputStream is = getResources().getAssets().open("print.txt");
+            InputStreamReader isr = new InputStreamReader(is, "UTF-8");
+            BufferedReader br = new BufferedReader(isr);
+            String str = "";
+            while ((str = br.readLine()) != null) {
+                Log.e(TAG, "onCreate: " + str);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
 
     }
 

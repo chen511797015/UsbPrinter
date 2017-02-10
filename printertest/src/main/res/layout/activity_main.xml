@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/m_btn_print_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打印字符串"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/m_btn_print_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置浓度"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/m_btn_print_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择字体"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/m_btn_print_cut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切刀"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/m_btn_print_black_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑白反显打印 "
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/m_btn_print_black_bit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打印黑块 "
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
